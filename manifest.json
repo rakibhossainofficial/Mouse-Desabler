@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Mouse Disabler Extension",
+  "version": "1.1",
+  "description": "Disables the mouse across all tabs and re-enables it on double-click.",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
